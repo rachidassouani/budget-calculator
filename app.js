@@ -14,7 +14,7 @@ const totalExpensesEl = document.querySelector("#total-expenses");
 
 let totalExpenses = 0;
 
-// whene confirm button clicked by user
+// when confirm button clicked by user
 confirmBtn.addEventListener('click', () => {
   const entredReason = reasonInput.value;
   const entredAmount = amountInput.value;
@@ -42,7 +42,7 @@ function clear() {
   amountInput.value = '';
 }
 
-// whene cancel button clicked by user
+// when cancel button clicked by user
 cancelBtn.addEventListener('click', clear);
 
 
